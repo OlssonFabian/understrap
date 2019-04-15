@@ -1,4 +1,6 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+@import "usps";
+
 
 #index-wrapper, #page-wrapper{
 	background: -moz-linear-gradient(top, rgba(47,79,79,1) 0%, rgba(47,79,79,0.55) 17%, rgba(47,79,79,0.31) 26%, rgba(47,79,79,0) 38%);
@@ -32,4 +34,10 @@ h3.widget-title{
 	align-items: bottom;
 	padding: 1rem;
 	margin-bottom: 0;
+}
+
+.fa-heart {
+	width: 50px;
+	height: 50px;
+	color: red;
 }
