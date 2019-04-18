@@ -3,7 +3,7 @@
 	if($icon){ ?>
 		<span class="<?php echo 'fa ' . $icon; ?>"></span>
 	<?php } ?>
-
+	<?php the_post_thumbnail(); ?>
 	<h1><?php the_title() ?></h1>
 	<?php the_content() ?>
 
